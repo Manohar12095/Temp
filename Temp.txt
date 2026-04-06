@@ -77,16 +77,4 @@ Speaking → mouth moves
 
 main.py (the brain)
 
-While audio plays, measure how loud it is (volume level)
-Send that volume level to ui.py to drive the mouth movement
-
-
-Questions to Answer Before Starting
-
-Which option do you want — simple sprites or VTube Studio?
-Do you have a Live2D model ready, or should generic sprites be used?
-Should the character replace the current orb/logo, or appear in its own separate box?
-
-
-How to Know It's Working
-StateWhat You Should SeeIdleCharacter subtly blinks or swaysThinkingExpression shifts to a "processing" lookSpeakingMouth opens and closes in time with the voice
+WhileCharacter subtly blinks or swaysThinkingExpression shifts to a "processing" lookSpeakingMouth opens and closes in time with the voice
